@@ -1,12 +1,14 @@
 ## Apis module:
 
 ## Quick Links
-- [Installation](#installation)
+- [Goal](#Goal)
 - [Usage](#usage)
-- [APIs Module](#apis-module)
-- [Contributing](#contributing)
+-     [ensembl.Ensembl](#ensembl.Ensembl)
+-     [uniprot.Uniprot](#uniprot.Uniprot)
 
 
+
+## Goal
 The goal of the module is to provide a unified(-ish) interface to different biological databases. The module has interfaces
 the following databases:
 
@@ -33,7 +35,7 @@ database is downloaded ahead of time in a read-only folder.
 
 from PIL.features import featuresfrom PIL.features import featuresfrom sympy.physics.units.definitions.dimension_definitions import information
 
-# API's module
+# Usage
 
 This module includes the API classes for the ccm_demo application. Each API class is responsible for 
 handling a specific type of request and returning the appropriate response. The classes assume that you know what you are
