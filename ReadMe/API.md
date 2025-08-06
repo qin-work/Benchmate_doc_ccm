@@ -2,10 +2,15 @@
 
 ## Quick Links
 - [Goal](#Goal)
-- [Usage](#usage)
--     [ensembl.Ensembl](#ensembl.Ensembl)
--     [uniprot.Uniprot](#uniprot.Uniprot)
-
+- [Usage](#usage):
+- [ensembl.Ensembl](#ensembl.Ensembl)
+- [uniprot.Uniprot](#uniprot.Uniprot)
+- [others.GTEX](#others.GTEX)
+- [others.BioGrid](#others.BioGrid)
+- [others.Intact](#others.Intact)
+- [reactome.Reactome](#reactome.Reactome)
+- [rna.RNACentral](#rna.RNACentral)
+- [stringdb.Stringdb](#stringdb.Stringdb)
 
 
 ## Goal
