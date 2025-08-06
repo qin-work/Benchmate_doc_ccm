@@ -14,7 +14,7 @@ Each module is independently usable and well-documented—check out the README i
 
 ## Modules Overview
 Explore the main components (click for details):
-- APIs: Unified interfaces for biological databases
+- [APIs](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/apis): Unified interfaces for biological databases
 - Literature: Advanced literature search and processing
 - Container Runner: Manage and run containers
 - Databases: (In development) Local and community-curated resources
