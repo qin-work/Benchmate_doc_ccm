@@ -1,0 +1,11 @@
+## Container Runner module:
+
+This is a module that would allow you to run any conteinerized application on your local machine or on a remote server. To give you the most
+flexible way to incoporate your data into you database we have created a container runner class that can be used to run any singularity/apptainer
+containter either locally or on HPC. We also have a to_container script that can be used to convert conda environments into singularity/appatiner
+contianers. 
+
+We are working on creating a small libarry of exisiting containers that can be immediately used to process your data. These will be available 
+soon in our own docker container registry. You can then use these docker containers to create a singluarity/apptainer .sif file to run arbitrary packages and pipelines. You can run these packages and commands either in an interactive session or submit them as slurmm jobs in HPC. Please see the container runner module readme for usage instructions. 
+
+Keep in mind that if you want to integrate the outputs of these containers/pipelines it's up to you to make sure that they are compatible with the modules in this package. 
