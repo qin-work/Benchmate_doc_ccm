@@ -6,7 +6,7 @@
 
 **CCM Benchmate** is an open-source toolkit for integrating and analyzing biological data from diverse public resources, literature, and your own research. Designed for bioinformaticians and computational biologists, it offers modular, interoperable components to build data pipelines and accelerate discovery.
 
-🛠️ To get started, please see the [installation instructions](https://github.com/ccmbioinfo/ccm_benchmate/blob/master/INSTALLATION.md). 
+**🛠️ To get started, please see the [installation instructions](https://github.com/ccmbioinfo/ccm_benchmate/blob/master/INSTALLATION.md).** 
 Each module is independently usable and well-documented—check out the README in each module's folder for details and code examples.
 
 ## 🚀 Key Features
