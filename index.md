@@ -3,25 +3,44 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+CCM Benchmate
+CCM Benchmate is an open-source toolkit for integrating and analyzing biological data from diverse public resources, literature, and your own research. Designed for bioinformaticians and computational biologists, it offers modular, interoperable components to build data pipelines and accelerate discovery.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
-
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+To get started, please see the installation instructions. 
+Each module is independently usable and well-documented—check out the README in each module's folder for details and code examples.
+Key Features
+Unified APIs: Access major bioinformatics databases (UniProt, NCBI, Ensembl, STRINGdb, and more) through a simple Python interface.
+Literature Search & Processing: Find, download, and extract content from scientific articles (PubMed, arXiv, OpenAlex), with tools for processing PDFs and full-text mining.
+Container Integration: Seamlessly run and manage Singularity/Apptainer containers locally or on HPC, with tools to convert and deploy your own environments.
+Genome, Sequence, and Variant Handling: Intuitive classes for genomic intervals, sequences, variants, and annotations.
+Structure Support: Import, analyze, or predict molecular structures using state-of-the-art models.
+Custom Knowledge Base: Store and query your processed data and analysis results using PostgreSQL + pgvector for advanced semantic search (coming soon).
+Modules Overview
+Explore the main components (click for details):
+APIs: Unified interfaces for biological databases
+Literature: Advanced literature search and processing
+Container Runner: Manage and run containers
+Databases: (In development) Local and community-curated resources
+Genome: Genomic data structures and queries
+Sequence: Sequence handling and analysis
+Structure: Structure loading, prediction, and analysis
+Variant: Variant representation and processing
+Ranges: Generic and genomic intervals
+Knowledge Base: Store and search for your results (coming soon)
+Roadmap
+Robust, searchable knowledge base for all your project data and literature
+Prebuilt, ready-to-use container library for bioinformatics workflows
+Unified querying and scripting across APIs
+Enhanced documentation, tests, and examples
+Community-driven expansion—your feedback and contributions drive our direction!
+How to Contribute
+Report bugs or suggest features: please create an issue on the GitHub repository
+Improve code or docs: See CONTRIBUTING.md
+Join discussions: Reach out via GitHub Issues or Pull Requests
+Who we are
+CCM Benchmate is developed by and for the scientific community. We're a small team, and contributions are welcome!
+Need help, want a new database or analysis container, or see a bug? Open a GitHub issue—we want to hear from you!
+This package is under active development. Caution: some modules may not yet be production-ready.
 
 ----
 
