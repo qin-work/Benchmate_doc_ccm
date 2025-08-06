@@ -1,0 +1,3 @@
+## Variant Module
+
+As the name suggests, this is module to representing variants. These can range from simple snps/indels to large structural variations and tandem repeat expansions. These variants take some basic required information for their representations. You can create genomic HGVS notations from these variatns which would make them compatible with some of the enpoints in ensembl module. If there are other vairtion types that we have missed please create an issue and describe how that variant is represented. Before doing so please look at the code in variant.variant file to get ian idea about how we are approaching this problem. 
