@@ -1,50 +1,48 @@
----
-title: Home
-layout: home
----
-
-CCM Benchmate
+# CCM Benchmate
 CCM Benchmate is an open-source toolkit for integrating and analyzing biological data from diverse public resources, literature, and your own research. Designed for bioinformaticians and computational biologists, it offers modular, interoperable components to build data pipelines and accelerate discovery.
 
 To get started, please see the installation instructions. 
 Each module is independently usable and well-documented—check out the README in each module's folder for details and code examples.
-Key Features
-Unified APIs: Access major bioinformatics databases (UniProt, NCBI, Ensembl, STRINGdb, and more) through a simple Python interface.
-Literature Search & Processing: Find, download, and extract content from scientific articles (PubMed, arXiv, OpenAlex), with tools for processing PDFs and full-text mining.
-Container Integration: Seamlessly run and manage Singularity/Apptainer containers locally or on HPC, with tools to convert and deploy your own environments.
-Genome, Sequence, and Variant Handling: Intuitive classes for genomic intervals, sequences, variants, and annotations.
-Structure Support: Import, analyze, or predict molecular structures using state-of-the-art models.
-Custom Knowledge Base: Store and query your processed data and analysis results using PostgreSQL + pgvector for advanced semantic search (coming soon).
-Modules Overview
+
+## Key Features
+- Unified APIs: Access major bioinformatics databases (UniProt, NCBI, Ensembl, STRINGdb, and more) through a simple Python interface.
+- Literature Search & Processing: Find, download, and extract content from scientific articles (PubMed, arXiv, OpenAlex), with tools for processing PDFs and full-text mining.
+- Container Integration: Seamlessly run and manage Singularity/Apptainer containers locally or on HPC, with tools to convert and deploy your own environments.
+- Genome, Sequence, and Variant Handling: Intuitive classes for genomic intervals, sequences, variants, and annotations.
+- Structure Support: Import, analyze, or predict molecular structures using state-of-the-art models.
+- Custom Knowledge Base: Store and query your processed data and analysis results using PostgreSQL + pgvector for advanced semantic search (coming soon).
+
+## Modules Overview
 Explore the main components (click for details):
-APIs: Unified interfaces for biological databases
-Literature: Advanced literature search and processing
-Container Runner: Manage and run containers
-Databases: (In development) Local and community-curated resources
-Genome: Genomic data structures and queries
-Sequence: Sequence handling and analysis
-Structure: Structure loading, prediction, and analysis
-Variant: Variant representation and processing
-Ranges: Generic and genomic intervals
-Knowledge Base: Store and search for your results (coming soon)
-Roadmap
+- APIs: Unified interfaces for biological databases
+- Literature: Advanced literature search and processing
+- Container Runner: Manage and run containers
+- Databases: (In development) Local and community-curated resources
+- Genome: Genomic data structures and queries
+- Sequence: Sequence handling and analysis
+- Structure: Structure loading, prediction, and analysis
+- Variant: Variant representation and processing
+- Ranges: Generic and genomic intervals
+- Knowledge Base: Store and search for your results (coming soon)
+
+## Roadmap
 Robust, searchable knowledge base for all your project data and literature
 Prebuilt, ready-to-use container library for bioinformatics workflows
 Unified querying and scripting across APIs
 Enhanced documentation, tests, and examples
 Community-driven expansion—your feedback and contributions drive our direction!
-How to Contribute
+
+## How to Contribute
 Report bugs or suggest features: please create an issue on the GitHub repository
 Improve code or docs: See CONTRIBUTING.md
 Join discussions: Reach out via GitHub Issues or Pull Requests
-Who we are
+
+## Who we are
 CCM Benchmate is developed by and for the scientific community. We're a small team, and contributions are welcome!
 Need help, want a new database or analysis container, or see a bug? Open a GitHub issue—we want to hear from you!
 This package is under active development. Caution: some modules may not yet be production-ready.
 
 ----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
