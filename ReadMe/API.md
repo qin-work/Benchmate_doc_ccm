@@ -7,16 +7,16 @@ The goal of the module is to provide a unified(-ish) interface to different biol
 - [Databases](#Databases)
 - [Usage](#usage):
 
-| Links   | Class                | Status   | Data Type              |
-|------------|----------------------|----------|-------------------------|
-| [ensembl.Ensembl](#ensembl.Ensembl)    | ensembl.Ensembl      | ✅ Stable | Genomic data           |
-| [uniprot.Uniprot](#uniprot.Uniprot)   | uniprot.Uniprot      | ✅ Stable | Protein data           |
-| [stringdb.Stringdb](#stringdb.Stringdb)     | stringdb.Stringdb    | ✅ Stable | PPI networks           |
-| [others.GTEX](#others.GTEX)      | others.GTEX          | 🚧 Beta  | Expression data        |
-| [others.BioGrid](#others.BioGrid)    | others.BioGrid       | ✅ Stable | Interactions           |
-| [others.Intact](#others.Intact)   | others.Intact        | ✅ Stable | Molecular interactions |
-| [reactome.Reactome](#reactome.Reactome)   | reactome.Reactome    | ✅ Stable | Pathways               |
-| [rna.RNACentral](#rna.RNACentral) | rna.RNACentral       | ✅ Stable | Non-coding RNA         |
+| Class                | Status   | Data Type              |
+|----------------------|----------|-------------------------|
+| [ensembl.Ensembl](#ensembl.Ensembl)    | ✅ Stable | Genomic data           |
+| [uniprot.Uniprot](#uniprot.Uniprot)   | ✅ Stable | Protein data           |
+| [stringdb.Stringdb](#stringdb.Stringdb)      | ✅ Stable | PPI networks           |
+| [others.GTEX](#others.GTEX)      | 🚧 Beta  | Expression data        |
+| [others.BioGrid](#others.BioGrid)    | ✅ Stable | Interactions           |
+| [others.Intact](#others.Intact)   | ✅ Stable | Molecular interactions |
+| [reactome.Reactome](#reactome.Reactome)   | ✅ Stable | Pathways               |
+| [rna.RNACentral](#rna.RNACentral) | ✅ Stable | Non-coding RNA         |
 
 ## Databases
 The module interfaces with the following public databases:
