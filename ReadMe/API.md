@@ -1,7 +1,10 @@
 ## Apis module:
 
+## Goal:
+The goal of the module is to provide a unified(-ish) interface to different biological databases.
+
 ## Quick Links
-- [Goal](#Goal)
+- [Databases](#Databases)
 - [Usage](#usage):
 
 | Database   | Class                | Status   | Data Type              |
@@ -15,10 +18,8 @@
 | [reactome.Reactome](#reactome.Reactome)   | reactome.Reactome    | ✅ Stable | Pathways               |
 | [rna.RNACentral](#rna.RNACentral) | rna.RNACentral       | ✅ Stable | Non-coding RNA         |
 
-
-## Goal
-The goal of the module is to provide a unified(-ish) interface to different biological databases. The module has interfaces
-the following databases:
+## Databases
+The module interfaces with the following databases:
 
 + uniprot.org: This is a database of protein sequences and annotations. The module provides a way to search for proteins
 and their respective annotations. The entirety of the uniprot database can be searched using the module, including variation
