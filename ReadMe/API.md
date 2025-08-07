@@ -5,6 +5,17 @@
 - [Usage](#usage):
 | Database   | Class                | Status   | Data Type              |
 |------------|----------------------|----------|-------------------------|
+| Ensembl    | ensembl.Ensembl      | ✅ Stable | Genomic data           |
+| UniProt    | uniprot.Uniprot      | ✅ Stable | Protein data           |
+| STRING     | stringdb.Stringdb    | ✅ Stable | PPI networks           |
+| GTEx       | others.GTEX          | 🚧 Beta  | Expression data        |
+| BioGRID    | others.BioGrid       | ✅ Stable | Interactions           |
+| IntAct     | others.Intact        | ✅ Stable | Molecular interactions |
+| Reactome   | reactome.Reactome    | ✅ Stable | Pathways               |
+| RNAcentral | rna.RNACentral       | ✅ Stable | Non-coding RNA         |
+
+| Database   | Class                | Status   | Data Type              |
+|------------|----------------------|----------|-------------------------|
 | [ensembl.Ensembl](#ensembl.Ensembl)    | ensembl.Ensembl      | ✅ Stable | Genomic data           |
 | [uniprot.Uniprot](#uniprot.Uniprot)   | uniprot.Uniprot      | ✅ Stable | Protein data           |
 | [stringdb.Stringdb](#stringdb.Stringdb)     | stringdb.Stringdb    | ✅ Stable | PPI networks           |
