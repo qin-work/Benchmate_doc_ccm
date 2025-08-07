@@ -10,7 +10,7 @@
 Each module is independently usable and well-documented—check out the README in each module's folder for details and code examples.
 
 ## 🚀 Key Features
-- **Unified APIs:**: Access major bioinformatics databases (UniProt, NCBI, Ensembl, STRINGdb, and more) through a simple Python interface.
+- **Unified APIs**: Access major bioinformatics databases (UniProt, NCBI, Ensembl, STRINGdb, and more) through a simple Python interface.
 - **Literature Search & Processing**: Find, download, and extract content from scientific articles (PubMed, arXiv, OpenAlex), with tools for processing PDFs and full-text mining.
 - **Container Integration**: Seamlessly run and manage Singularity/Apptainer containers locally or on HPC, with tools to convert and deploy your own environments.
 - **Genome, Sequence, and Variant Handling**: Intuitive classes for genomic intervals, sequences, variants, and annotations.
