@@ -7,7 +7,7 @@ The goal of the module is to provide a unified(-ish) interface to different biol
 - [Databases](#Databases)
 - [Usage](#usage):
 
-| Database   | Class                | Status   | Data Type              |
+| Links   | Class                | Status   | Data Type              |
 |------------|----------------------|----------|-------------------------|
 | [ensembl.Ensembl](#ensembl.Ensembl)    | ensembl.Ensembl      | ✅ Stable | Genomic data           |
 | [uniprot.Uniprot](#uniprot.Uniprot)   | uniprot.Uniprot      | ✅ Stable | Protein data           |
@@ -19,37 +19,21 @@ The goal of the module is to provide a unified(-ish) interface to different biol
 | [rna.RNACentral](#rna.RNACentral) | rna.RNACentral       | ✅ Stable | Non-coding RNA         |
 
 ## Databases
-The module interfaces with the following databases:
+The module interfaces with the following public databases:
 
-+ uniprot.org: This is a database of protein sequences and annotations. The module provides a way to search for proteins
-and their respective annotations. The entirety of the uniprot database can be searched using the module, including variation
-isoforms and mutagenesis endpoints. These are then integrated into a single dictionary that can be used to access the data.
-+ ncbi.nlm.nih.gov: This is a database of nucleotide sequences and annotations. The module provides a way to search for all 
-of the ncbi databases, including nucleotide sequences, protein sequences, gene annotations, and more. While you can search pubmed
-using this module, the literature module is better suited for that purpose (see below). 
-+ ensembl.org: This is a database of genomic sequences and annotations. The module provides a way to search for gene variants
-mapping between different coordinates systems, and more. The module also provides a way to search for genes and their annotations,
-annotate variants, query cross references from different databases and more. 
-+ stringdb.org: This is a database of protein-protein interactions. The module provides a way to search for protein-protein interactions. 
-Additionally you can use the biogrid and IntAct endpoints under others to perform similar queries.
-+ For information on RNA the RNACentral module provides a way to search for RNA sequences and annotations. 
+[UniProt](https://www.uniprot.org/): A comprehensive resource for protein sequences and annotations. This module allows users to search the full UniProt database, including variation isoforms and mutagenesis endpoints. Retrieved information is integrated into a unified dictionary format for easy programmatic access.
 
-You can see a detailed overview of how these can be used in the readme file under ccm_benchmate/apis/README.md.
+[NCBI](https://www.ncbi.nlm.nih.gov/): A suite of databases covering nucleotide sequences, protein sequences, gene annotations, and more. This module enables queries across all NCBI databases. While PubMed can be accessed through this module, we recommend using the dedicated literature module for more effective literature queries (see below).
 
-We are currently working on adding more databases to this module, if you have suggestions for databases that you would like to see
-please open an issue on the GitHub repository and we will try to add them.
+[Ensembl](https://www.ensembl.org/): A resource for genomic sequences and annotations. This module supports searching gene variants, mapping coordinates across assemblies, annotating variants, retrieving gene details, and accessing cross-references across databases.
 
-We are also working on a databses module that will provide a way to retrieve data from smaller platforms such as GTEx where the whole 
-database is downloaded ahead of time in a read-only folder. 
+[STRINGdb](https://string-db.org/): A database of known and predicted protein-protein interactions. This module allows querying interaction data between proteins. Similar functionality is available through the BioGRID and IntAct endpoints in the others module.
 
-from PIL.features import featuresfrom PIL.features import featuresfrom sympy.physics.units.definitions.dimension_definitions import information
+[RNAcentral](https://rnacentral.org/): For RNA-related data, the RNACentral module provides access to RNA sequences and their associated annotations.
 
 # Usage
 
-This module includes the API classes for the ccm_demo application. Each API class is responsible for 
-handling a specific type of request and returning the appropriate response. The classes assume that you know what you are
-looking for and gives you the power to link different public databases to each other programmatically. Each of the apis
-return a dictionary with varying degrees and the parsing also is different. The API classes are as follows:
+This module defines the API classes used in the ccm_demo application. Each class is designed to handle a specific type of request and return the corresponding response. These APIs are intended for users who have a clear understanding of their data needs and wish to programmatically link various public databases. Each API returns a dictionary, though the structure and parsing logic may vary across classes. The available API classes are:
 
 The apis marked with (WIP) are still under development and may not be fully functional yet.
 
@@ -64,10 +48,6 @@ The apis marked with (WIP) are still under development and may not be fully func
 + GTEx (WIP)
 + EBI tools (requires testing)
 + BioGrid
-
-
-Here is a `README.md` for the classes under `ccm_benchmate/apis`. Each section describes the class and provides usage examples for each public method.
-
 ---
 
 ## ensembl.Ensembl
