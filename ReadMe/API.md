@@ -3,14 +3,24 @@
 ## Quick Links
 - [Goal](#Goal)
 - [Usage](#usage):
-    - [ensembl.Ensembl](#ensembl.Ensembl)
-    - [uniprot.Uniprot](#uniprot.Uniprot)
+    - 
+    - 
     - [others.GTEX](#others.GTEX)
     - [others.BioGrid](#others.BioGrid)
     - [others.Intact](#others.Intact)
     - [reactome.Reactome](#reactome.Reactome)
     - [rna.RNACentral](#rna.RNACentral)
     - [stringdb.Stringdb](#stringdb.Stringdb)
+| Database   | Class                | Status   | Data Type              |
+|------------|----------------------|----------|-------------------------|
+| [ensembl.Ensembl](#ensembl.Ensembl)    | ensembl.Ensembl      | ✅ Stable | Genomic data           |
+| [uniprot.Uniprot](#uniprot.Uniprot)   | uniprot.Uniprot      | ✅ Stable | Protein data           |
+| STRING     | stringdb.Stringdb    | ✅ Stable | PPI networks           |
+| GTEx       | others.GTEX          | 🚧 Beta  | Expression data        |
+| BioGRID    | others.BioGrid       | ✅ Stable | Interactions           |
+| IntAct     | others.Intact        | ✅ Stable | Molecular interactions |
+| Reactome   | reactome.Reactome    | ✅ Stable | Pathways               |
+| RNAcentral | rna.RNACentral       | ✅ Stable | Non-coding RNA         |
 
 
 ## Goal
