@@ -1,8 +1,6 @@
 title: CCM BenchMate
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: A starter template for a CCM BenchMate draft site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://qin-work.github.io/Benchmate_doc_ccm
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
