@@ -1,3 +1,8 @@
+---
+layout: default
+title: Container Runner
+---
+
 ## Container Runner module:
 
 This is a module that would allow you to run any conteinerized application on your local machine or on a remote server. To give you the most
