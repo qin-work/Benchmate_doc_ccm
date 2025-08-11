@@ -222,9 +222,8 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.13.2)
-    just-the-docs (0.10.1)
+    just-the-docs (0.4.2)
       jekyll (>= 3.8.5)
-      jekyll-include-cache
       jekyll-seo-tag (>= 2.0)
       rake (>= 12.3.1)
     kramdown (2.3.2)
@@ -306,11 +305,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  csv
+  csv (~> 3.2)
   github-pages (= 228)
-  jekyll-remote-theme
-  just-the-docs
-  webrick
+  jekyll-watch (~> 2.0)
+  just-the-docs (~> 0.4.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.7.1
