@@ -14,10 +14,6 @@ There is also a `StructureComplex` instance and as the name suggests this is the
 Additionally we are working on creating a `Simulation` class to sample protein structure fluctiations either via [Openmm](https://openmm.org/) (very computationally intensive, but accurate and time resolved), [BioEmu](https://github.com/microsoft/bioemu) and [AlphaFlow](https://github.com/bjing2016/alphaflow). These again will be calls to `ContainerRunner` calls, which means if you have other calculations that will utilize these containers for arbitrary outputs. 
 
 
-# Structure Module
-
-A module for working with protein structures, providing functionality for structure analysis, prediction, alignment and embedding generation.
-
 ## Classes Overview
 
 - `Structure`: Main class for handling individual protein structures
