@@ -1,4 +1,4 @@
----
+ ---
 layout: default
 title: Home
 ---
@@ -32,15 +32,15 @@ Comprehensive documentation—including module guides and usage examples—is av
 
 Explore the main components (click for details):
 - [APIs](API/): Unified interfaces for biological databases
-- [Literature](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/literature): Advanced literature search and processing
-- [Container Runner](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/container_runner): Manage and run containers
-- [Databases](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/databases): (In development) Local and community-curated resources
-- [Genome](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/genome): Genomic data structures and queries
-- [Sequence](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/sequence): Sequence handling and analysis
-- [Structure](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/structure): Structure loading, prediction, and analysis
-- [Variant](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/variant): Variant representation and processing
-- [Ranges](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/ranges): Generic and genomic intervals
-- [Knowledge Base](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/knowledge_base): Store and search for your results (coming soon)
+- [Literature](Literature/): Advanced literature search and processing
+- [Container Runner](ContainerRunner/): Manage and run containers
+- [Databases](Databases/): (In development) Local and community-curated resources
+- [Genome](Genome/): Genomic data structures and queries
+- [Sequence](Sequence/): Sequence handling and analysis
+- [Structure](Structure/): Structure loading, prediction, and analysis
+- [Variant](Variant/): Variant representation and processing
+- [Ranges](Ranges/): Generic and genomic intervals
+- [Knowledge Base](KnowledgeBase/): Store and search for your results (coming soon)
 
 ## 💡 Roadmap
 
