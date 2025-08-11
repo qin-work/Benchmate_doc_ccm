@@ -32,15 +32,15 @@ Comprehensive documentation—including module guides and usage examples—is av
 
 Explore the main components (click for details):
 - [APIs](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/API.html): Unified interfaces for biological databases
-- [Literature](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/literature.html): Advanced literature search and processing
-- [Container Runner](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/container_runner.html): Manage and run containers
-- [Databases](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/databases.html): (In development) Local and community-curated resources
-- [Genome](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/genome.html): Genomic data structures and queries
-- [Sequence](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/sequence.html): Sequence handling and analysis
-- [Structure](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/structure.html): Structure loading, prediction, and analysis
-- [Variant](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/variant.html): Variant representation and processing
-- [Ranges](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/ranges.html): Generic and genomic intervals
-- [Knowledge Base](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/knowledge_base.html): Store and search for your results (coming soon)
+- [Literature](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Literature.html): Advanced literature search and processing
+- [Container Runner](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/ContainerRunner.html): Manage and run containers
+- [Databases](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Databases.html): (In development) Local and community-curated resources
+- [Genome](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Genome.html): Genomic data structures and queries
+- [Sequence](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Sequence.html): Sequence handling and analysis
+- [Structure](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Structure.html): Structure loading, prediction, and analysis
+- [Variant](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Variant.html): Variant representation and processing
+- [Ranges](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Ranges.html): Generic and genomic intervals
+- [Knowledge Base](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/KnowledgeBase.html): Store and search for your results (coming soon)
 
 ## 💡 Roadmap
 
