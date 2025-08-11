@@ -1,13 +1,4 @@
 title: CCM BenchMate
-description: A starter template for a CCM BenchMate draft site using the Just the Docs theme!
 theme: just-the-docs
-
-url: https://qin-work.github.io/Benchmate_doc_ccm
-
-aux_links:
-  "Template Repository":
-    - https://github.com/qin-work/Benchmate_doc_ccm
-
 plugins:
   - just-the-docs
-
