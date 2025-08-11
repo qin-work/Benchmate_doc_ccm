@@ -35,12 +35,12 @@ Explore the main components (click for details):
 - [Literature](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Literature.md): Advanced literature search and processing
 - [Container Runner](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/ContainerRunner.md): Manage and run containers
 - [Databases](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Databases.md): (In development) Local and community-curated resources
-- [Genome](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Genome.html): Genomic data structures and queries
-- [Sequence](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Sequence.html): Sequence handling and analysis
-- [Structure](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Structure.html): Structure loading, prediction, and analysis
-- [Variant](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Variant.html): Variant representation and processing
-- [Ranges](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Ranges.html): Generic and genomic intervals
-- [Knowledge Base](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/KnowledgeBase.html): Store and search for your results (coming soon)
+- [Genome](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Genome.md): Genomic data structures and queries
+- [Sequence](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Sequence.md): Sequence handling and analysis
+- [Structure](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Structure.md): Structure loading, prediction, and analysis
+- [Variant](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Variant.md): Variant representation and processing
+- [Ranges](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Ranges.md): Generic and genomic intervals
+- [Knowledge Base](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/KnowledgeBase.md): Store and search for your results (coming soon)
 
 ## 💡 Roadmap
 
