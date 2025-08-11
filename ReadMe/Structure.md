@@ -19,9 +19,8 @@ Additionally we are working on creating a `Simulation` class to sample protein s
 - `Structure`: Main class for handling individual protein structures
 - `ProteinComplex`: Class for working with multi-chain protein structures (not yet fully implemented)
 
-## Structure Class
 
-### Basic Usage
+## Basic Usage
 
 ```python
 from ccm_benchmate.structure.structure import Structure
