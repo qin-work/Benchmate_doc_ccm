@@ -2,6 +2,7 @@
 ---
 layout: default
 title: Home
+
 ---
 
 <div style="text-align: center;">
