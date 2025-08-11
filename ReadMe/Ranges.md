@@ -20,7 +20,7 @@ All these operations are also supported in `GenomicRanges` instances as well. It
 
 ---
 
-## Range
+## Usage
 
 Represents a closed interval \[start, end\] (inclusive).
 
