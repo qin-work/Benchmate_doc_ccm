@@ -1,11 +1,12 @@
-<div style="text-align: center;">
-    <img src="./assets/benchmate.png" width="900" alt="CCM Benchmate logo" class="center">
-</div>
 
 ---
 layout: default
 title: Home
 ---
+
+<div style="text-align: center;">
+    <img src="./assets/benchmate.png" width="900" alt="CCM Benchmate logo" class="center">
+</div>
 
 # CCM Benchmate
 
