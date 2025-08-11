@@ -290,7 +290,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-default-layout
   just-the-docs (~> 0.10.1)
 
 BUNDLED WITH
