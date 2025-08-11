@@ -1,3 +1,8 @@
+---
+layout: default
+title: Structure
+---
+
 ## Structure Module
 
 Similar to sequence module, the main goal is to store sequences and related information as well as some basic calculations related to biological structures. 
