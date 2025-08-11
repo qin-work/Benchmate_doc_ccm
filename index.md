@@ -1,10 +1,12 @@
 <div style="text-align: center;">
     <img src="./assets/benchmate.png" width="900" alt="CCM Benchmate logo" class="center">
 </div>
+
 ---
 layout: default
 title: Home
 ---
+
 # CCM Benchmate
 
 **CCM Benchmate** is an open-source toolkit for integrating and analyzing biological data from diverse public resources, literature, and your own research. Designed for bioinformaticians and computational biologists, it offers modular, interoperable components to build data pipelines and accelerate discovery.
