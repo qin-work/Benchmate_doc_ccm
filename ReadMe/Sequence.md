@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sequence
+---
+
 ## Sequence Module
 
 This module is there to represent biological sequences. There are a few methods (more to come, please create an issue if you'd like to see specific things). 
