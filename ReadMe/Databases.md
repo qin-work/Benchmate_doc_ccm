@@ -1,3 +1,8 @@
+---
+layout: default
+title: Databases
+---
+
 ## Databases Module
 
 Currently this is empty, the goal is to gather information and requests from the general community to create either a standalone database with a query schema or 
