@@ -1,3 +1,8 @@
+---
+layout: default
+title: Knowledge Base
+---
+
 ## Knowledge Base
 
 This module is designed to store the results of your searches and queries in a database. The goal is to provide a way to store the data that you have retrieved from the different modules in a structured way that allows you to query it later. The database schema
