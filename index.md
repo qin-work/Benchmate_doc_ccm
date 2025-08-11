@@ -26,7 +26,7 @@ Comprehensive documentation—including module guides and usage examples—is av
 ## 🎨 Modules Overview
 
 Explore the main components (click for details):
-- [APIs](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/apis): Unified interfaces for biological databases
+- [APIs](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/API.html): Unified interfaces for biological databases
 - [Literature](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/literature): Advanced literature search and processing
 - [Container Runner](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/container_runner): Manage and run containers
 - [Databases](https://github.com/ccmbioinfo/ccm_benchmate/tree/master/ccm_benchmate/databases): (In development) Local and community-curated resources
