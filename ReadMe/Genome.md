@@ -1,7 +1,3 @@
----
-layout: default
-title: Genome
----
 
 ## Genome Module
 

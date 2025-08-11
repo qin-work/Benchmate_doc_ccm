@@ -1,7 +1,3 @@
----
-layout: default
-title: Container Runner
----
 
 ## Container Runner module:
 

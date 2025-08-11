@@ -1,8 +1,3 @@
----
-layout: default
-title: Range
----
-
 ## Ranges Module
 
 These module contains to main classes, `Ranges` moduel along with its counterparts `RangesList` and `RangesDict` are for storing arbitrary ranges. These can be any integer based ranges (that's the current limitation). Once you have a few ranges you can calculate the distance between them, you can merge them, calculate overlaps between 2 ranges. 
