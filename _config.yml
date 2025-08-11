@@ -1,9 +1,7 @@
 title: CCM BenchMate
 url: https://qin-work.github.io/Benchmate_doc_ccm
 
-# Theme configuration
-remote_theme: just-the-docs/just-the-docs@main
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-
