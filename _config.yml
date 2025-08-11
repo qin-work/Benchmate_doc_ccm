@@ -8,5 +8,3 @@ aux_links:
   "Template Repository":
     - https://github.com/qin-work/Benchmate_doc_ccm
 
-plugins:
-  - jekyll-default-layout
