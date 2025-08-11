@@ -31,10 +31,10 @@ Comprehensive documentation—including module guides and usage examples—is av
 ## 🎨 Modules Overview
 
 Explore the main components (click for details):
-- [APIs](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/API): Unified interfaces for biological databases
-- [Literature](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Literature): Advanced literature search and processing
-- [Container Runner](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/ContainerRunner): Manage and run containers
-- [Databases](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Databases): (In development) Local and community-curated resources
+- [APIs](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/API.md): Unified interfaces for biological databases
+- [Literature](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Literature.md): Advanced literature search and processing
+- [Container Runner](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/ContainerRunner.md): Manage and run containers
+- [Databases](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Databases.md): (In development) Local and community-curated resources
 - [Genome](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Genome.html): Genomic data structures and queries
 - [Sequence](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Sequence.html): Sequence handling and analysis
 - [Structure](https://github.com/qin-work/Benchmate_doc_ccm/blob/main/ReadMe/Structure.html): Structure loading, prediction, and analysis
