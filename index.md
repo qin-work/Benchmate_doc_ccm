@@ -1,9 +1,11 @@
-
 ---
 layout: default
 title: Home
-
 ---
+# Welcome
+
+My homepage content here.
+
 
 <div style="text-align: center;">
     <img src="./assets/benchmate.png" width="900" alt="CCM Benchmate logo" class="center">
