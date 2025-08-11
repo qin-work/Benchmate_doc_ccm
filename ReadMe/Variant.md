@@ -1,17 +1,11 @@
+---
+layout: default
+title: Variant
+---
+
 ## Variant Module
 
 As the name suggests, this is module to representing variants. These can range from simple snps/indels to large structural variations and tandem repeat expansions. These variants take some basic required information for their representations. You can create genomic HGVS notations from these variatns which would make them compatible with some of the enpoints in ensembl module. If there are other vairtion types that we have missed please create an issue and describe how that variant is represented. Before doing so please look at the code in variant.variant file to get ian idea about how we are approaching this problem. 
-
-# Variant Module
-
-This module defines classes for representing and annotating different types of genetic variants, including SNVs, indels, structural variants, and tandem repeats.
-This module is not meant for you to store your variant for a whole genome or exome sequencing. Currenlt there is no support for 
-storing large number of variants (in the order of 100s of millions, which would be about 40-50 WGS samples). That support might come in the future. 
-
-If you have a smaller subset of variants that is the result of a filtered vcf file you might be able to use this to represent them and
-store them in the knowledegbase database. 
-
----
 
 ## Classes
 
