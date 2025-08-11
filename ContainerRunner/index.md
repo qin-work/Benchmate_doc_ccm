@@ -1,3 +1,8 @@
+---
+layout: default
+title: ContainerRunner
+---
+
 ## Container Runner module:
 
 This is a module that would allow you to run any conteinerized application on your local machine or on a remote server. To give you the most
@@ -10,9 +15,6 @@ soon in our own docker container registry. You can then use these docker contain
 
 Keep in mind that if you want to integrate the outputs of these containers/pipelines it's up to you to make sure that they are compatible with the modules in this package. 
 
-# Container Runner Module
-
-A module for running Singularity/Docker containers with support for local and SLURM cluster execution.
 
 ## Overview
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sequence
+---
+
 ## Sequence Module
 
 This module is there to represent biological sequences. There are a few methods (more to come, please create an issue if you'd like to see specific things). 
@@ -6,10 +11,6 @@ The base `Sequence` class can take 4 different kinds of sequences (DNA, RNA, pro
 
 For collections of sequences there are 2 other class types, `SequenceList` and `SequenceDict`, as the name suggests there are `list` and `dict`  like instances and contain many other methods that list and dictionaries have. Please see the sequence module readme for more information and usage instructions. 
 
-
-# Sequence Module
-
-A module for working with biological sequences, providing sequence analysis, alignment, and embedding capabilities.
 
 ## Classes Overview
 

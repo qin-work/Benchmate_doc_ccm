@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Knowledge Base
+title: KnowledgeBase
 ---
 
 ## Knowledge Base
