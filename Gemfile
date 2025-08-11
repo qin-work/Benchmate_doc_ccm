@@ -4,3 +4,4 @@ gem 'github-pages', group: :jekyll_plugins
 
 gem "just-the-docs", "~> 0.10.1"
 
+gem "jekyll-default-layout"
