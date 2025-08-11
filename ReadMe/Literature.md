@@ -19,11 +19,6 @@ processed. Figures and tables can be automaticall interpreted using a vision lan
 are similarly processed to the full text data. All of this can be permanantly stored in a database for later retrieval and analysis 
 (more on that later, see knowledge_base module). 
 
-
-# Literature Module
-
-A module for searching and processing scientific literature from PubMed and arXiv, with functionality to download papers, extract content, and analyze metadata.
-
 ## Classes Overview
 
 - `LitSearch`: Search for papers across scientific databases
