@@ -1,3 +1,8 @@
+---
+layout: default
+title: Apis
+---
+
 ## Apis module:
 
 ## Goal:
