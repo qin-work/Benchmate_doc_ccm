@@ -1,9 +1,9 @@
 ---
 layout: default
-title: API Documentation
+title: API
 ---
 
-# API Documentation
+# API
 
 ## Apis module:
 
